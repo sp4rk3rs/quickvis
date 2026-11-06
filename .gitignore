@@ -1,0 +1,7 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+Rplots.pdf
+/*.Rcheck/
+/quickvis_*.tar.gz

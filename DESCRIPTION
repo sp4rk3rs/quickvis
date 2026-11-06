@@ -1,0 +1,26 @@
+Package: quickvis
+Title: Visualization Tools for Factor Analysis
+Version: 0.1.0
+Authors@R: 
+    person("Parker", "McKasson", , "parkermckasson@gmail.com", role = c("aut", "cre"))
+Description: Creates shaded loading tables for exploratory factor analysis
+    and compares multiple solutions on a shared color scale. Draws path
+    diagrams for confirmatory factor analysis models fitted with 'lavaan',
+    including cross-loadings, bifactor layouts, and tracing of contributions
+    to fitted variances and covariances.
+License: MIT + file LICENSE
+Depends:
+    R (>= 4.1.0)
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    graphics,
+    grDevices,
+    gt,
+    scales,
+    stats,
+    tidyselect
+Suggests:
+    lavaan,
+    psych
